@@ -8,7 +8,7 @@ export function AddReviewModal({ toggleModal, restaurantId }) {
 
     const { ADD_REVIEW } = ACTIONS;
 
-    const [formdata, setFormdata] = useState({ rating: "", comment: "", revName: "Reviewer Name", pp: "" })
+    const [formdata, setFormdata] = useState({ rating: "", comment: "", revName: "Reviewer Name", pp: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5tbKdv1HDbAjPc526SK0yDZuoOmaaOyGNoj_e1q3ngruK2bTqzub3&s=0" })
 
     const changeHandler = (e) => setFormdata((formdata) => ({ ...formdata, [e.target.name]: e.target.value }))
 
