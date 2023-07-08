@@ -53,7 +53,7 @@ export function RestaurantDetailPage() {
 
                 {/* Modal */}
                 {modal && (
-                    <AddReviewModal toggleModal={toggleModal}/>
+                    <AddReviewModal toggleModal={toggleModal} restaurantId={selectedRestaurant.id}/>
                 )}
                 
 

@@ -21,6 +21,13 @@ export function DataProvider({ children }) {
                 return {...state, selectedCuisine: action.payload}
             }
 
+            case ADD_REVIEW: {
+                let reviewAddedRestaurant = state.restaurantData.find(({id}) =>( id === action.payload.restaurantId));
+                reviewAddedRestaurant = {...reviewAddedRestaurant, ratings: [...reviewAddedRestaurant.ratings, action.payload.formdata]}
+                const restData = state.restaurantData.map((rest) => rest.id === reviewAddedRestaurant.id ? reviewAddedRestaurant : rest)
+                return {...state, restaurantData: [...restData]}
+            }
+
             default: {
                 return {...state}
             }
@@ -30,6 +37,8 @@ export function DataProvider({ children }) {
     }
 
     const [dataState, dispatchData] = useReducer(reducer, {cuisineData: cuisineData, restaurantData: restaurantsData, selectedCuisine: 0});
+
+    console.log({dataState});
 
     return (
         <>
