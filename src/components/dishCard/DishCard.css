@@ -1,0 +1,23 @@
+.dish-img {
+    height: 15rem;
+    width: 15rem;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.dish-card-container {
+    width: 15rem;
+    border-radius: 5px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+
+.dish-detail-container {
+    padding: 12px;
+    color: #828282;
+    /* font-weight: 600; */
+}
+
+.dishname {
+    font-weight: 700;
+    color: black;
+}

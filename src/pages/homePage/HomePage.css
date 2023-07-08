@@ -1,0 +1,42 @@
+.cuisineselect-btns-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cuisinebtn-container {
+    margin: 0 1rem;
+    display: flex;
+    justify-self: center;
+    align-items: center;
+}
+
+.cuisine-btn {
+    all: unset;
+    cursor: pointer;
+    display: flex;
+    justify-self: center;
+    align-items: center;
+    color: #fff;
+    background-color: var(--primary-color);
+    padding: 5px 16px;
+    border-radius: 8px;
+}
+
+.restaurants-list-n-dishes-container {
+    margin-top: 5rem;
+}
+
+.dishes-by-restaurants-container {
+    text-align: left;
+}
+
+.restaurant-name-heading {
+    margin-left: 4rem;
+}
+
+.dishcards-cotainer {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 2rem;
+}

@@ -1,0 +1,77 @@
+.restaurant-detail-page-container {
+    text-align: left;
+    max-width: 60%;
+    margin: 6rem auto;
+}
+
+.gobackarrow {
+    font-size: 2rem;
+    text-align: left;
+    margin-top: 2rem;
+    margin-left: 6rem;
+    cursor: pointer;
+}
+
+.addreview-btn {
+    all: unset;
+    cursor: pointer;
+    display: flex;
+    justify-self: center;
+    align-items: center;
+    color: #fff;
+    background-color: var(--primary-color);
+    padding: 5px 16px;
+    border-radius: 8px;
+}
+
+.restaurant-name-dp {
+    font-size: 2.5rem;
+}
+
+.top-section-restaurant-details {
+    display: flex;
+    justify-content: space-between;
+}
+
+.top-section-restaurant-details {
+    border-bottom: 1px solid;
+    padding-bottom: 1.5rem;
+}
+
+.review-n-dp-n-revdetails-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 0rem;
+    border-bottom: 1px solid;
+}
+
+.avatar {
+    height: 40px;
+    width: 40px;
+    border-radius: 9999px;
+}
+
+.avatar-n-name {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.avatar-container {
+    margin-right: 10px;
+}
+
+.reviewer-name {
+    font-weight: 700;
+}
+
+.rating-given {
+    max-height: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 10px;
+    border-radius: 5px;
+    color: #FFD602;
+    background-color: #008100;
+}
